@@ -6,7 +6,7 @@ import Draw
 #step of train
 step = 1
 #time of iteration
-iteration = 6
+iteration = 20
 
 # input train data from train.txt or test.txt
 def _inputData(path):
@@ -40,7 +40,7 @@ def _judgeUpdateWeight(TrainDataMat, a, b, timeSample):
     sum = 0
     for i in range(0, len(TrainDataMat)):
         sum = sum + a[i]*TrainDataMat[i][2]*GramMat[timeSample][i]
-
+    sum = sum + b
     if sum*TrainDataMat[timeSample][2] > 0:
         return 0
     else:
@@ -51,15 +51,19 @@ def _judgeUpdateWeight(TrainDataMat, a, b, timeSample):
 def _train(TrainDataMat):
     a = [0 for i in TrainDataMat]
     b = 0
+    accuracy = 0
 # dual method of percetron training
     for i in range(1, iteration):
         for j in range(0, len(TrainDataMat)):
             if _judgeUpdateWeight(TrainDataMat, a, b, j) == 1:
                 a[j] = a[j] + step
                 b = b + step * TrainDataMat[j][2]
-
+            else:
+                accuracy = accuracy + 1
+        print (accuracy/len(TrainDataMat))
+        accuracy = 0
     TrainDataXMat = np.delete(TrainDataMat, -1, axis=1)
-    w = [0 for i in TrainDataXMat]
+    w = [0 for i in TrainDataXMat[0]]
     change = 0
     changeMat = [0 for i in TrainDataXMat]
     for i in range(0, len(TrainDataMat)):
@@ -73,11 +77,11 @@ if __name__ == '__main__':
      path = "train.txt"
      TrainDataMat = _inputData(path)
      TrainDataMatMul = _CalGramMat(TrainDataMat)
-    # TrainDataXMat = np.delete(TrainDataMat, -1, axis=1)
+     TrainDataXMat = np.delete(TrainDataMat, -1, axis=1)
     #
-    # w = [0 for i in TrainDataXMat]
-    # b = 0
-    # w,b = _train(TrainDataMat)
-    # print (w)
-    # print (b)
-     Draw._draw2D()
+     w = [0 for i in TrainDataXMat[0]]
+     b = 0
+     w,b = _train(TrainDataMat)
+     print (w)
+     print (b)
+     Draw._draw2D(TrainDataMat, w, b)

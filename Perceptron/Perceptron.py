@@ -1,4 +1,7 @@
 import numpy as np
+import sys
+sys.path.append('E:\机器视觉\机器学习\MachineLearning\VisualShow')
+import Draw
 
 #step of train
 step = 1
@@ -67,13 +70,14 @@ def _train(TrainDataMat):
     return w,b
 
 if __name__ == '__main__':
-    path = "train.txt"
-    TrainDataMat = _inputData(path)
-    TrainDataMatMul = _CalGramMat(TrainDataMat)
-    TrainDataXMat = np.delete(TrainDataMat, -1, axis=1)
-
-    w = [0 for i in TrainDataXMat]
-    b = 0
-    w,b = _train(TrainDataMat)
-    print (w)
-    print (b)
+     path = "train.txt"
+     TrainDataMat = _inputData(path)
+     TrainDataMatMul = _CalGramMat(TrainDataMat)
+    # TrainDataXMat = np.delete(TrainDataMat, -1, axis=1)
+    #
+    # w = [0 for i in TrainDataXMat]
+    # b = 0
+    # w,b = _train(TrainDataMat)
+    # print (w)
+    # print (b)
+     Draw._draw2D()

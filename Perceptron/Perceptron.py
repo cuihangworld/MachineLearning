@@ -1,5 +1,10 @@
 import numpy as np
 
+#step of train
+step = 1
+#time of iteration
+iteration = 6
+
 # input train data from train.txt or test.txt
 def _inputData(path):
     TrainData = []
@@ -26,7 +31,7 @@ def _CalGramMat(TrainDataMat):
 
     return TrainDataMatMul
 
-#判断是否更新权重，1表示更新，0表示不更新, timeSample是样本次数
+#judge whether update the weights，1 is yes，0 is no, timeSample is the time of sample
 def _judgeUpdateWeight(TrainDataMat, a, b, timeSample):
     GramMat = _CalGramMat(TrainDataMat)
     sum = 0
@@ -37,16 +42,13 @@ def _judgeUpdateWeight(TrainDataMat, a, b, timeSample):
         return 0
     else:
         return 1
-#训练步长
-step = 1
-#迭代次数
-iteration = 6
 
 
-# 感知器训练，输入为训练集矩阵
+# train perceptron，input is Train data mat
 def _train(TrainDataMat):
     a = [0 for i in TrainDataMat]
     b = 0
+# dual method of percetron training
     for i in range(1, iteration):
         for j in range(0, len(TrainDataMat)):
             if _judgeUpdateWeight(TrainDataMat, a, b, j) == 1:

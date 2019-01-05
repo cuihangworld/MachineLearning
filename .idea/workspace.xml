@@ -12,11 +12,12 @@
     <session id="-754080438">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -31,12 +32,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2121" />
+          <entry key="py" value="2325" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2121" />
+          <entry key="Python" value="2325" />
         </counts>
       </usages-collector>
     </session>
@@ -46,12 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Perceptron/Perceptron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-              <folding>
-                <marker date="1546612894822" expanded="true" signature="106:584" ph="..." />
-                <marker date="1546612894822" expanded="true" signature="1321:1936" ph="..." />
-              </folding>
+            <state relative-caret-position="-1231">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -183,12 +180,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Perceptron/Perceptron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding>
-            <marker date="1546612894822" expanded="true" signature="106:584" ph="..." />
-            <marker date="1546612894822" expanded="true" signature="1321:1936" ph="..." />
-          </folding>
+        <state relative-caret-position="-1231">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>

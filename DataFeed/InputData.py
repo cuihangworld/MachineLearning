@@ -16,3 +16,19 @@ def _inputData(path):
             TrainDataMat = np.array(TrainData)
 
     return TrainDataMat
+
+def _inputDataCharacter(path):
+    TrainData = []
+    with open(path, 'r') as fileReader:
+        while True:
+            line = fileReader.readline()
+            #want to delete the end '\n', but forget
+            #if (not line) or (line[0] == '\n'):
+            if (not line):
+                break
+            row = line.split()
+
+            TrainData.append(row)
+            TrainDataMat = np.array(TrainData)
+
+    return TrainDataMat

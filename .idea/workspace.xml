@@ -12,7 +12,7 @@
     <session id="-754080438">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.22" value="1" />
@@ -25,32 +25,33 @@
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="17" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6042" />
+          <entry key="py" value="6333" />
           <entry key="txt" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="106" />
-          <entry key="Python" value="6042" />
+          <entry key="Python" value="6333" />
         </counts>
       </usages-collector>
     </session>
@@ -60,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Perceptron/Perceptron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+            <state relative-caret-position="-1008">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -72,85 +73,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataFeed/InputData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="120">
+              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NaiveBayes/NaiveBayes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1550043455563" expanded="true" signature="210:555" ph="..." />
-                <marker date="1550043455563" expanded="true" signature="654:1241" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Logistic/train.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Logistic/logistic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="259">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1550311007620" expanded="true" signature="121:123" ph="..." />
-                <marker date="1550311007620" expanded="true" signature="148:151" ph="..." />
+                <marker date="1550317931613" expanded="true" signature="133:316" ph="..." />
+                <marker date="1550317931613" expanded="true" signature="341:446" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NaiveBayes/train.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VisualShow/Draw.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1546699410743" expanded="true" signature="79:80" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/K-NN/Knn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1546953945709" expanded="true" signature="125:256" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/K-NN/train.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -200,6 +138,11 @@
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="BP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -256,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.NaiveBayes">
+  <component name="RunManager" selected="Python.logistic">
     <configuration name="Knn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -320,13 +263,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="logistic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Logistic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logistic/logistic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Perceptron" />
       <item itemvalue="Python.Knn" />
       <item itemvalue="Python.NaiveBayes" />
+      <item itemvalue="Python.logistic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.logistic" />
         <item itemvalue="Python.NaiveBayes" />
         <item itemvalue="Python.Knn" />
         <item itemvalue="Python.Perceptron" />
@@ -350,7 +316,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -396,20 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataFeed/InputData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NaiveBayes/train.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VisualShow/Draw.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -439,10 +391,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Logistic/train.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NaiveBayes/train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NaiveBayes/NaiveBayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="432">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <marker date="1550043455563" expanded="true" signature="210:555" ph="..." />
@@ -451,27 +413,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Logistic/train.txt">
+    <entry file="file://$PROJECT_DIR$/BP/Operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2880">
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP/IO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP/Infor.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP/Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1169" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP/trainImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP/t.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP/readFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP/Perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Perceptron/Perceptron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        <state relative-caret-position="-1008">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DataFeed/InputData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Logistic/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="259">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1550311007620" expanded="true" signature="121:123" ph="..." />
-            <marker date="1550311007620" expanded="true" signature="148:151" ph="..." />
+            <marker date="1550317931613" expanded="true" signature="133:316" ph="..." />
+            <marker date="1550317931613" expanded="true" signature="341:446" ph="..." />
           </folding>
         </state>
       </provider>
